@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }  
+  body{
+    background-color:#2696E9;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  #t-img{
+    width: 15%;
+  }
+  section{
+    padding: 10% 15%;
+  } 
+  h1{
+    margin-bottom: 2%;
+    text-align: center;
+    color: black;
+    font-size: 3rem;
+    text-transform:uppercase;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #266ae9; 
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #266ae9; 
+  }
+#btn{
+  padding: 20px;
+  color: white;
+  border: solid black 3px;
+  text-decoration: none;
+  background-color: #266ae9;
+}
+#btn:hover{
+  transition: 0.6s;
+  background-color: #4a26e9;
+}
+  .flex{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+*::selection{
+  background-color: #FFDAC1;
+  color: black;
+}
+h3{
+  text-align: center;
+}
+
+  p{
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: #266ae9;
+    padding: 13px;
+    border-radius: 10px;
+  }
+  .more-abt p{
+    padding: 2%;
+  }
+  .more-abt{
+    border-radius: 10px;
+    background-color: #266ae9;
+    margin: 9%;
+    display: flex;
+  }
+  #video, #img{
+    text-align: center;
+    display: flex;
+    margin: auto;
+    padding: 20px;
+  }
+  #img{
+    width: 420px;
+    height: 500px;
+  }
+
+  footer{
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding: 1rem;
+  }
+  footer{
+    height:3rem;
+    background:#444;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    padding:1rem 3rem;
+    position:fixed;
+    z-index:9999;
+    width:100%;
+    position:fixed;
+    bottom:0;
+  }
+  .socialSec{
+    width: 50%;
+    display: flex;
+    justify-content:space-around;
+  }
+  .social {
+    width: 6%;
+    display: grid;
+    padding: 3px;
+    opacity: 0.5;
+    -webkit-opacity: 0.5;
+    -moz-opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .social:hover{
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+  }
+  .icon {
+    place-self: center;
+    width: 80%;
+  }
+  .wrapper-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-evenly;
+  }
+  .container{
+    user-select: none;
+    margin: 100px auto;
+    background: #231e39;
+    color: #b3b8cd;
+    border-radius: 5px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 10px 20px -10px rgba(0,0,0,.75);
+  }
+  .cover-photo{
+    background: 
+    url(https://images.unsplash.com/photo-1476136236990-838240be4859?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80);
+    height: 160px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+  }
+  .profile{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 93px 0 0 -175px;
+    padding: 7px;
+    background: #266ae9;
+  }
+  .profile-name{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 27px 0 0 120px;
+  }
+  .about{
+    color: #b3b8cd;
+    background-color: transparent;
+    margin-top: 35px;
+    line-height: 21px;
+  }
+  button{
+    margin: 10px 0 40px 0;
+  }
+  .msg-btn, .follow-btn{
+    background: #2696E9;
+    border: 1px solid #2696E9;
+    padding: 10px 25px;
+    color: #231e39;
+    border-radius: 3px;
+    font-family: Montserrat, sans-serif;
+    cursor: pointer;
+  }
+  .msg-btn:hover{
+    background: transparent;
+    color: #2696E9;
+    transition: 0.5s;
+  }
+  .follow-btn{
+    margin-left: 10px;
+    background: transparent;
+    color: #2696E9;
+  }
+  .follow-btn:hover{
+    color: #231e39;
+    background: #2696E9;
+    transition: .5s;
+  }
+
+  .science img{
+    width: 40%;
+  }
+  .science{
+    background-color: #266ae9;
+    display: flex;
+    padding: 2%;
+    margin-bottom: 5%;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container i{
+    padding-left: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: .5s;
+  }
+
+  h2{
+    text-align: center;
+    font-size: 300%;
+  }
+
+  .container1 {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card1 {
+    position: relative;
+    width: calc(50% - 20px);
+    min-height: 400px;
+    background: #FF9AAc;
+    margin: 10px;
+    box-sizing: border-box;
+  }
+  .card1 .imgBx1 {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+  }
+  .card1 .imgBx1 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .card1 .details {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card1 .details .content {
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .card1 .details .content h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    line-height: 0.85em;
+    font-weight: 600;
+  }
+  .card1 .details .content h2 span {
+    font-size: 14px;
+    color: #777;
+  }
+  @media (max-width: 1200px) {
+    .science{
+      flex-wrap: wrap;
+    }
+    .science img{
+    flex-wrap: wrap;
+      width: 30%;
+      height: 10%;
+    }
+    .container1 {
+      width: 100%;
+    }
+  }
+  @media (max-width: 991px) {
+    .card1 {
+      width: calc(70% - 20px);
+      margin: 10px auto;
+    }
+  }
+  @media (max-width: 768px) {
+    .card1 {
+      width: calc(70% - 20px);
+      margin: 10px auto;
+    }
+    .card1 .imgBx1 {
+      position: relative;
+      width: 100%;
+      height: 200px;
+    }
+    .card1 .details {
+      position: relative;
+      width: 100%;
+      height: 200px;
+    }
+  }
+  @media (max-width: 480px) {
+    #video{
+      height: 30%;
+      width: 80%;
+    }
+    .card1 {
+      width: calc(100% - 40px);
+      margin: 10px auto;
+    }
+  }
+  .exp{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
